@@ -32,8 +32,6 @@
 		B08051641665AF43008F143B /* shot_button.png in Resources */ = {isa = PBXBuildFile; fileRef = B08051631665AF43008F143B /* shot_button.png */; };
 		B08051661665C031008F143B /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = B08051651665C031008F143B /* banana.png */; };
 		B09729A01669CB7C004E9DAC /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B097299F1669CB7C004E9DAC /* IntroScene.m */; };
-		B09729A41669D645004E9DAC /* FailureScene.h in Resources */ = {isa = PBXBuildFile; fileRef = B09729A21669D644004E9DAC /* FailureScene.h */; };
-		B09729A51669D645004E9DAC /* FailureScene.m in Resources */ = {isa = PBXBuildFile; fileRef = B09729A31669D644004E9DAC /* FailureScene.m */; };
 		B09729A61669D701004E9DAC /* FailureScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B09729A31669D644004E9DAC /* FailureScene.m */; };
 		B09729AD1669E40D004E9DAC /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = B09729AC1669E40D004E9DAC /* Enemy.m */; };
 		B0B554AD1673493200FB3E9A /* police.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0B554AB1673493200FB3E9A /* police.plist */; };
@@ -871,8 +869,6 @@
 				B08051621665AF3A008F143B /* jump_button.png in Resources */,
 				B08051641665AF43008F143B /* shot_button.png in Resources */,
 				B08051661665C031008F143B /* banana.png in Resources */,
-				B09729A41669D645004E9DAC /* FailureScene.h in Resources */,
-				B09729A51669D645004E9DAC /* FailureScene.m in Resources */,
 				B0505830166C7F0000D66021 /* page1.png in Resources */,
 				B0505832166C7F0000D66021 /* page2.png in Resources */,
 				B0505858166E33F600D66021 /* airplane.png in Resources */,
