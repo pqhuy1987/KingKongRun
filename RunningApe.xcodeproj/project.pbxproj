@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		973CCB211DE9EF1400A0899A /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 973CCB201DE9EF1400A0899A /* Icon-120.png */; };
 		B00F7D60167F1CC400A01A8B /* menu_bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D5F167F1CC400A01A8B /* menu_bgm.mp3 */; };
 		B01E74601673711F002BADD2 /* city_a.png in Resources */ = {isa = PBXBuildFile; fileRef = B01E745E1673711F002BADD2 /* city_a.png */; };
 		B01E74611673711F002BADD2 /* city_b.png in Resources */ = {isa = PBXBuildFile; fileRef = B01E745F1673711F002BADD2 /* city_b.png */; };
@@ -153,6 +154,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		973CCB201DE9EF1400A0899A /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
 		B00F7D5F167F1CC400A01A8B /* menu_bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = menu_bgm.mp3; sourceTree = "<group>"; };
 		B01E745A16735FEF002BADD2 /* GameConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConstant.h; sourceTree = "<group>"; };
 		B01E745E1673711F002BADD2 /* city_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = city_a.png; sourceTree = "<group>"; };
@@ -495,6 +497,7 @@
 		B0B99933165EF910008FF149 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				973CCB201DE9EF1400A0899A /* Icon-120.png */,
 				B00F7D5F167F1CC400A01A8B /* menu_bgm.mp3 */,
 				B01E74C0167709A9002BADD2 /* enemy_hit.wav */,
 				B01E74BA16770680002BADD2 /* jump.wav */,
@@ -892,6 +895,7 @@
 				B01E74BF167706B2002BADD2 /* game_bgm.mp3 in Resources */,
 				B01E74C1167709A9002BADD2 /* enemy_hit.wav in Resources */,
 				B01E74C316770F64002BADD2 /* numbers.png in Resources */,
+				973CCB211DE9EF1400A0899A /* Icon-120.png in Resources */,
 				B01E74C61677270B002BADD2 /* mute_button.png in Resources */,
 				B01E74C71677270B002BADD2 /* unmute_button.png in Resources */,
 				B01E74C916772998002BADD2 /* final_page.png in Resources */,
