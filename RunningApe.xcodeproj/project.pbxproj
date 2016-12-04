@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		973CCB211DE9EF1400A0899A /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 973CCB201DE9EF1400A0899A /* Icon-120.png */; };
+		97A4F5A11DF43D1F005C9E55 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97A4F5A01DF43D1F005C9E55 /* Media.xcassets */; };
 		B00F7D60167F1CC400A01A8B /* menu_bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B00F7D5F167F1CC400A01A8B /* menu_bgm.mp3 */; };
 		B01E74601673711F002BADD2 /* city_a.png in Resources */ = {isa = PBXBuildFile; fileRef = B01E745E1673711F002BADD2 /* city_a.png */; };
 		B01E74611673711F002BADD2 /* city_b.png in Resources */ = {isa = PBXBuildFile; fileRef = B01E745F1673711F002BADD2 /* city_b.png */; };
@@ -153,6 +154,7 @@
 
 /* Begin PBXFileReference section */
 		973CCB201DE9EF1400A0899A /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		97A4F5A01DF43D1F005C9E55 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		B00F7D5F167F1CC400A01A8B /* menu_bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = menu_bgm.mp3; sourceTree = "<group>"; };
 		B01E745A16735FEF002BADD2 /* GameConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConstant.h; sourceTree = "<group>"; };
 		B01E745E1673711F002BADD2 /* city_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = city_a.png; sourceTree = "<group>"; };
@@ -436,6 +438,7 @@
 		B0B99913165EF910008FF149 = {
 			isa = PBXGroup;
 			children = (
+				97A4F5A01DF43D1F005C9E55 /* Media.xcassets */,
 				B0B99932165EF910008FF149 /* RunningApe */,
 				B0B99921165EF910008FF149 /* Frameworks */,
 				B0B9991F165EF910008FF149 /* Products */,
@@ -885,6 +888,7 @@
 				B01E74731674EDBD002BADD2 /* start_button.png in Resources */,
 				B01E74751674EDC8002BADD2 /* restart_button.png in Resources */,
 				B01E74771674EE36002BADD2 /* pause_button.png in Resources */,
+				97A4F5A11DF43D1F005C9E55 /* Media.xcassets in Resources */,
 				B01E74B916764790002BADD2 /* main_menu_bg.png in Resources */,
 				B01E74BB16770681002BADD2 /* jump.wav in Resources */,
 				B01E74BD167706A6002BADD2 /* banana.wav in Resources */,
@@ -1077,6 +1081,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = JQNK74493B;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1096,6 +1102,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = JQNK74493B;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
